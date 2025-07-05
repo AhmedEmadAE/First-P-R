@@ -1,0 +1,57 @@
+.aboutSection {
+    background-color: #1abc9c;
+    color: white;
+    padding: 160px;
+
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sectionHeading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.starDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.starDivider .line {
+    height: 4px;
+    background-color: white;
+    width: 100px;
+}
+
+.starIcon {
+    font-size: 2rem;
+    margin: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colLg6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 25px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.aboutText {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
